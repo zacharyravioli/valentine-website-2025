@@ -13,7 +13,7 @@ const CONFIG = {
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
-    floatingEmojis: {
+    floatingEmojis: {'❤️','💖','💗','🫶','🧸','😗'}
         hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
         bears: ['🧸', '🐻']                       // Cute bear emojis
     },
@@ -43,14 +43,14 @@ const CONFIG = {
     // They show up depending on how far they slide the meter
     loveMessages: {
         extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
+        high: "Heh. Thats pwetty big... 🐣🐣🐣 🚀💝",              // Shows when they go past 1000%
+        normal: "I STILL love you more Moira ≧◡≦ ! 💗💗💗"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
         title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "Now come get your gift, a big warm hug and a huge kiss!",
+        message: "I can't wait to see you on Valentines! XOXO :3!",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
 
