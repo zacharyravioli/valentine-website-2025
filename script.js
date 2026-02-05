@@ -35,7 +35,36 @@ function validateConfig() {
     if (warnings.length > 0) {
         console.warn("⚠️ Configuration Warnings:");
         warnings.forEach(warning => console.warn("- " + warning));
-    }
+    }// ===============================
+// BUTTON LOGIC & SCREEN FLOW
+// ===============================
+window.addEventListener('DOMContentLoaded', () => {
+    // Screen 1 buttons
+    const yesBtn1 = document.getElementById('yesBtn1');
+    const noBtn1 = document.getElementById('noBtn1');
+
+    yesBtn1.addEventListener('click', () => {
+        showNextQuestion(2);
+    });
+
+    noBtn1.addEventListener('mouseover', () => {
+        moveButton(noBtn1);
+    });
+
+    noBtn1.addEventListener('click', () => {
+        moveButton(noBtn1);
+    });
+
+    // Screen 2 button
+    const nextBtn = document.getElementById('nextBtn');
+    nextBtn.addEventListener('click', () => {
+        showNextQuestion(3);
+    });
+
+    // Screen 3 buttons
+    const yesBtn3 = document.getElementById('yesBtn3');
+    const noBtn3 = document.getElementById('noBtn3'
+
 }
 
 // Default color values
